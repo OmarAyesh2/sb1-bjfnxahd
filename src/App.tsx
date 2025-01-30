@@ -57,7 +57,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Hammer className="w-8 h-8 text-[#65a254]" />
-              <span className="ml-2 text-xl font-bold text-gray-800">BuildPro Construction</span>
+              <span className="ml-2 text-xl font-bold text-gray-800">Taqniat AlHulul Co.</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-gray-600 hover:text-[#65a254]">About</a>
@@ -79,11 +79,11 @@ function App() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-[#65a254] mb-2">25+ Years</h3>
+                <h3 className="text-xl font-bold text-[#65a254] mb-2">19+ Years</h3>
                 <p className="text-gray-600">Industry Experience</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-[#65a254] mb-2">500+</h3>
+                <h3 className="text-xl font-bold text-[#65a254] mb-2">63+</h3>
                 <p className="text-gray-600">Projects Completed</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -186,15 +186,15 @@ function App() {
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Get in Touch</h3>
               <div className="flex items-center space-x-4">
                 <Phone className="w-6 h-6 text-[#65a254]" />
-                <span className="text-gray-600">+1 (555) 123-4567</span>
+                <span className="text-gray-600">++966 (50) 3825547</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="w-6 h-6 text-[#65a254]" />
-                <span className="text-gray-600">contact@buildpro.com</span>
+                <span className="text-gray-600">Info@TAC-sa.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="w-6 h-6 text-[#65a254]" />
-                <span className="text-gray-600">123 Construction Ave, Building City, BC 12345</span>
+                <span className="text-gray-600">Kingdom of Saudi Arabia Riyadh 11231 P.O.Box : 87584</span>
               </div>
             </div>
             <form className="space-y-6">
@@ -224,7 +224,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <Hammer className="w-8 h-8" />
-              <span className="ml-2 text-xl font-bold">BuildPro Construction</span>
+              <span className="ml-2 text-xl font-bold">Taqniat AlHulul Co.</span>
             </div>
             <div className="text-center md:text-right">
               <p>&copy; 2024 Telescope Agency. All rights reserved.</p>
