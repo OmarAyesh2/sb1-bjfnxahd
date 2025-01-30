@@ -5,15 +5,14 @@ function App() {
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
 
   const services = [
-    { icon: <Building2 className="w-12 h-12 mb-4" />, title: 'Building Construction', description: 'Full-service building construction for commercial and residential projects' },
-    { icon: <Home className="w-12 h-12 mb-4" />, title: 'Residential Construction', description: 'Custom home building and renovations' },
-    { icon: <Warehouse className="w-12 h-12 mb-4" />, title: 'Industrial Construction', description: 'Specialized construction for industrial facilities' },
-    { icon: <Crane className="w-12 h-12 mb-4" />, title: 'Infrastructure Development', description: 'Roads, bridges, and public infrastructure projects' },
-    { icon: <HardHat className="w-12 h-12 mb-4" />, title: 'Project Management', description: 'Comprehensive project planning and execution' },
-    { icon: <Ruler className="w-12 h-12 mb-4" />, title: 'Architecture & Design', description: 'Innovative architectural solutions' },
-    { icon: <PaintBucket className="w-12 h-12 mb-4" />, title: 'Interior Finishing', description: 'High-quality interior finishing services' },
-    { icon: <Truck className="w-12 h-12 mb-4" />, title: 'Site Development', description: 'Complete site preparation and development' },
-    { icon: <Wrench className="w-12 h-12 mb-4" />, title: 'Maintenance', description: 'Ongoing maintenance and repair services' },
+    { icon: <Building2 className="w-12 h-12 mb-4" />, title: 'FINISHING & FURNISHINGFINISHING & FURNISHING', description: 'Full-service building construction for commercial and residential projects' },
+    { icon: <Home className="w-12 h-12 mb-4" />, title: 'CONSTRUCTION', description: 'Custom home building and renovations' },
+    { icon: <Warehouse className="w-12 h-12 mb-4" />, title: 'FIT OUT WORKS', description: 'Specialized construction for industrial facilities' },
+    { icon: <Crane className="w-12 h-12 mb-4" />, title: 'MEP WORKS', description: 'Roads, bridges, and public infrastructure projects' },
+    { icon: <HardHat className="w-12 h-12 mb-4" />, title: 'LANDSCAPE & HARDSCAPE', description: 'Comprehensive project planning and execution' },
+    { icon: <Ruler className="w-12 h-12 mb-4" />, title: 'GENERAL TRADING', description: 'Innovative architectural solutions' },
+    { icon: <PaintBucket className="w-12 h-12 mb-4" />, title: 'Consulting Services', description: 'High-quality interior finishing services' },
+
   ];
 
   const projects = [
