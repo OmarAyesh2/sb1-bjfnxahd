@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Building2, airplay, Phone, Mail, MapPin, HardHat, Ruler, PaintBucket, Truck, Wrench, Warehouse, Plane as Crane, Home, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Building2, ArrowDownRight, Phone, Mail, MapPin, HardHat, Ruler, PaintBucket, Truck, Wrench, Warehouse, Plane as Crane, Home, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 function App() {
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
