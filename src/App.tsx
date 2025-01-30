@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Building2, Hammer, Phone, Mail, MapPin, HardHat, Ruler, PaintBucket, Truck, Wrench, Warehouse, Plane as Crane, Home, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Building2, airplay, Phone, Mail, MapPin, HardHat, Ruler, PaintBucket, Truck, Wrench, Warehouse, Plane as Crane, Home, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 function App() {
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
@@ -73,9 +73,13 @@ function App() {
       <section id="about" className="pt-24 pb-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-gray-800 mb-8">Building Tomorrow's World Today</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-8">About Us</h2>
             <p className="text-lg text-gray-600 mb-8">
-              With over 25 years of experience in the construction industry, BuildPro Construction has established itself as a leader in delivering exceptional construction services. Our commitment to quality, innovation, and customer satisfaction has earned us a reputation for excellence in both residential and commercial projects.
+              Established in 2006, TAC became one of the leading company in the middle east for construction &
+              furnishing projects by delivering customer services to their satisfaction. With all standard sources and
+              experience team have created the market reputation throw-out the kingdom and middle east. Operating
+              through international offices in Riyadh, TAC offers a comprehensive regional approach to its clients and
+              partners
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -186,7 +190,7 @@ function App() {
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Get in Touch</h3>
               <div className="flex items-center space-x-4">
                 <Phone className="w-6 h-6 text-[#65a254]" />
-                <span className="text-gray-600">++966 (50) 3825547</span>
+                <span className="text-gray-600">+966 (50) 3825547</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="w-6 h-6 text-[#65a254]" />
